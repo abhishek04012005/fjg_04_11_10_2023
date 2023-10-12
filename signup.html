@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    </head>
+
+    <body>
+        <div class="formPage">
+            <form>
+
+                <h1>Sign Up</h1>
+
+                <hr>
+
+                <input type="text" name="firstname" placeholder="First Name" required />
+
+                <input type="text" name="lastname" placeholder="Last Name" required />
+                <div>
+                    <label for="cour">Course: </label>
+                    <select id="cour">
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="genDER">Gender: </label>
+                    <input type="radio" id="genDER" value="Female" name="gender" checked> Female
+                    <input type="radio" id="genDER" value="Male" name="gender"> Male
+                    <input type="radio" id="genDER" value="Other" name="gender"> Other
+                </div>
+
+                <input type="tel" name="phone" placeholder="Phone No." required>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" id="dob">
+                <br>
+                <br>
+                <input type="checkbox"> <span>Are you disable?</span>
+
+                <br>
+                <br>
+                <p>Your Address:</p>
+                <textarea id="add" required>
+                </textarea>
+
+                <br>
+
+                <input type="email" placeholder="Enter Email" name="email" required>
+
+
+                <input type="password" placeholder="Enter Password" required>
+
+
+                <input type="password" placeholder="Retype Password" required>
+
+                <input type="file">
+                <br>
+                <br>
+
+                <button type="submit" id="signIN">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>
